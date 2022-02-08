@@ -19,3 +19,13 @@ This roadmap aims to give a complete picture of the modern software engineering 
 : This repository is about the most common commands in git
 
 
+## Software Engineer Paths
+
+![Software Engineer Paths](img/SE_Paths.png)
+
+* Frontend Software Engineer
+* Backend Software Engineer
+* Android Software Engineer
+* Ios Software Engineer
+* Devops Engineer
+* SRE Engineer
