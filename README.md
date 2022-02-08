@@ -3,7 +3,7 @@
 This roadmap aims to give a complete picture of the modern software engineering landscape and serve as a study guide for aspiring software engineers.
 
 ## Software Engineer Roadmap
-![Software Engineer Roadmap](charts/software_engineering_roadmap.html)
+<iframe src="charts/software_engineering_roadmap.html"></iframe
 
 ## Software Engineer Paths
 
