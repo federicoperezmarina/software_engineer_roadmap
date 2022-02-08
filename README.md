@@ -7,15 +7,15 @@ This roadmap aims to give a complete picture of the modern software engineering 
 ![Software Engineer Fundamentals](img/SE_Fundamentals.png)
 
 * [REST API](https://github.com/federicoperezmarina/101_REST_API_first_steps)
-This repository is about REST API first steps.
+: This repository is about REST API first steps.
 
 * [Linux Shell](https://github.com/federicoperezmarina/101_linux_shell_and_shell_scripting_first_steps)
-This repository is about Linux Shell first steps in commands & linux shell scripting.
+: This repository is about Linux Shell first steps in commands & linux shell scripting.
 
 * [Linux Cronjobs](https://github.com/federicoperezmarina/101_linux_cronjobs_first_steps)
-This repository is about creating cronjobs in linux
+: This repository is about creating cronjobs in linux
 
 * [Git](https://github.com/federicoperezmarina/101_git_first_steps)
-This repository is about the most common commands in git
+: This repository is about the most common commands in git
 
 
