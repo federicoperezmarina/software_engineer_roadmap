@@ -20,7 +20,7 @@
 			    border-top: 1px solid #000;
 			}
 			a{
-				text-decoration: none;
+				text-decoration: underline;
 				color:black;
 			}
 		</style>
@@ -41,16 +41,22 @@
 
 	        // For each orgchart box, provide the name, manager, and tooltip to show.
 	        data.addRows([
-	        	['Software Engineer','','Software Engineer'],
-	        	['Fundamentals','Software Engineer','Fundamentals'],
-				[{v:'REST API', f:'<a href="https://github.com/federicoperezmarina/101_REST_API_first_steps">REST API</a>'},'Fundamentals','REST API'],
-				[{v:'Linux Shell', f:'<a href="https://github.com/federicoperezmarina/101_linux_shell_and_shell_scripting_first_steps">Linux Shell</a>'},'Fundamentals','Linux shell'],
-				[{v:'Linux Cronjobs', f:'<a href="https://github.com/federicoperezmarina/101_linux_cronjobs_first_steps">Linux Cronjobs</a>'},'Fundamentals','Linux cronjobs'],
-				[{v:'Git', f:'<a href="https://github.com/federicoperezmarina/101_git_first_steps">Git</a>'},'Fundamentals','Git'],
+	        	['Software Engineer Fundamentals','','Software Engineer  Fundamentals'],
+				[{v:'Linux Shell', f:'<a href="https://github.com/federicoperezmarina/101_linux_shell_and_shell_scripting_first_steps">Linux Shell</a>'},'Software Engineer Fundamentals','Linux shell'],
+				[{v:'Linux Cronjobs', f:'<a href="https://github.com/federicoperezmarina/101_linux_cronjobs_first_steps">Linux Cronjobs</a>'},'Software Engineer Fundamentals','Linux cronjobs'],
+				[{v:'Git', f:'<a href="https://github.com/federicoperezmarina/101_git_first_steps">Git</a>'},'Software Engineer Fundamentals','Git'],				
+				['Github','Git','Github'],
+				['GitLab','Git','Gitlab'],
+				['Bitbucket','Git','Bitbucket'],
+				[{v:'REST API', f:'<a href="https://github.com/federicoperezmarina/101_REST_API_first_steps">REST API</a>'},'Software Engineer Fundamentals','REST API'],				
+				['Http','Software Engineer Fundamentals','Http'],
+				['DNS','Software Engineer Fundamentals','DNS'],
+				['Domain Name','Software Engineer Fundamentals','Domain Name'],
+				['Security','Software Engineer Fundamentals','Security'],
+
 	        ]);
 
 	        data.setRowProperty(0, 'style', 'background:black;color:white;padding:10px 5px;');
-	        data.setRowProperty(1, 'style', 'background:black;color:white;padding:10px 5px;');
 
 	        // Create the chart.
 	        var chart = new google.visualization.OrgChart(document.getElementById('software_engineering_roadmap'));
